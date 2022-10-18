@@ -1,0 +1,20 @@
+
+
+.tipo-saque {
+  color: rgba(255, 0, 0, 0.829) !important;
+  }
+
+.tipo-deposito {
+  color: rgb(75, 219, 8)!important;
+
+}
+
+
+.tipo-transferencia {
+  color: rgba(8, 63, 214, 0.993)!important;
+
+}
+
+.texto{
+  font-weight: 600;
+}

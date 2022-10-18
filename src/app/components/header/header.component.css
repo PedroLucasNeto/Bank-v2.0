@@ -1,0 +1,51 @@
+.navbar-container{
+  padding: 0 20px;
+
+  height: 70px;
+  background: var(--green-500);
+
+  color: aliceblue;
+  font-size: large;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  width: fit-content;
+}
+
+.logo-name{
+  font-weight: 600;
+}
+
+.right-links{
+  font-weight: 400;
+  text-decoration: none;
+  color: aliceblue;
+
+  margin-left: 20px;
+
+  cursor: pointer;
+}
+
+.right-links.sign-up{
+  padding: 5px 10px;
+}
+
+.right-links.sign-up:hover{
+  background-color: var(--green-400);
+  border-radius: 5px;
+}
+
+.right-links:hover{
+  color: var(--green);
+}
+
+.right-container{
+  display: flex;
+  align-items: center;
+}
